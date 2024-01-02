@@ -6,3 +6,8 @@ export interface CardProps {
   link?: string;
   subtitle?: string;
 }
+
+export interface BenefitsProps {
+  number: number;
+  title: string;
+}
