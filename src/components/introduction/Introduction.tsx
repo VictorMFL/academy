@@ -19,18 +19,18 @@ const Introduction = () => {
       />
 
       <div className="w-[45%] h-full flex justify-center flex-col gap-12 py-16 pl-[110px]">
-        <h1 className="text-white text-5xl font-normal">
+        <h1 className="text-white text-5xl font-normal animate-left">
           Leve seu treinamento para o próximo nível
         </h1>
 
-        <div className="w-full grid grid-cols-2 gap-4">
+        <div className="w-full grid grid-cols-2 gap-4 animate-bottom">
           <Card image={iconBar} title="exercícios" link="#" />
           <Card image={iconStrong} title="treinadores" link="#" />
           <Card image={iconFitness} title="fitness" link="#" />
           <Card image={iconCrossfit} title="Crossfit" link="#" />
         </div>
 
-        <p className={`${openSans.className} text-white text-lg`}>
+        <p className={`${openSans.className} text-white text-lg animate-bottom`}>
           Imagem do{" "}
           <a
             href="https://www.freepik.com/photos/woman"

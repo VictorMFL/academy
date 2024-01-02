@@ -9,7 +9,7 @@ const Card = ({ image, title, link }: CardProps) => {
     <div className="w-[246px] min-h-[235px] bg-white p-[30px] flex flex-col gap-[15px] relative">
       <span className="w-full h-[5px] bg-newBlue absolute top-0 left-0"></span>
 
-      <Image src={image} alt={`Icone do ${title}`} height={70} width={70} />
+      <Image src={image} alt={`Icone do ${title}`} height={70} width={70} className="animate-rotateImg" />
 
       <h1 className="font-bold text-2xl uppercase">{title}</h1>
 
