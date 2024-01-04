@@ -5,9 +5,7 @@ import iconStrong from "../../assets/musculacao.png";
 import iconFitness from "../../assets/alongamento.png";
 import iconCrossfit from "../../assets/peso.png";
 import Card from "../card/Card";
-import { Open_Sans } from "next/font/google";
-
-const openSans = Open_Sans({ weight: ["600"], subsets: ["latin"] });
+import ImageCredit from "../imageCredit/ImageCredit";
 
 const Introduction = () => {
   return (
@@ -30,16 +28,7 @@ const Introduction = () => {
           <Card image={iconCrossfit} title="Crossfit" link="#" />
         </div>
 
-        <p className={`${openSans.className} text-white text-lg animate-bottom`}>
-          Imagem do{" "}
-          <a
-            href="https://www.freepik.com/photos/woman"
-            target="_blank"
-            className="border-b-[1px] border-white hover:border-newBlue hover:text-slate-200"
-          >
-            Freepik
-          </a>
-        </p>
+        <ImageCredit />
       </div>
     </div>
   );
