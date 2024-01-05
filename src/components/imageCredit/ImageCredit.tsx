@@ -7,7 +7,7 @@ const ImageCredit = () => {
     <p className={`${openSans.className} text-white text-lg animate-bottom`}>
           Imagem do{" "}
           <a
-            href="https://www.freepik.com/photos/woman"
+            href="https://www.freepik.com/"
             target="_blank"
             className="border-b-[1px] border-white hover:border-newBlue hover:text-slate-200"
           >

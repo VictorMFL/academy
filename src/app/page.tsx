@@ -1,5 +1,6 @@
 import Benefits from "@/components/benefits/Benefits"
 import Introduction from "@/components/introduction/Introduction"
+import StartToday from "@/components/startToday/StartToday"
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
         <Benefits number={2} title="Obtenha um programa personalizado e adaptado às suas necessidades." />
         <Benefits number={3} title="Fique mais forte, mais saudável e mais feliz." />
       </div>
+
+      <StartToday />
     </main>
   )
 }
