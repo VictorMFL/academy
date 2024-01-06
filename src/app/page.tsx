@@ -1,6 +1,7 @@
-import Benefits from "@/components/benefits/Benefits"
-import Introduction from "@/components/introduction/Introduction"
-import StartToday from "@/components/startToday/StartToday"
+import Benefits from "@/components/benefits/Benefits";
+import Introduction from "@/components/introduction/Introduction";
+import MembersSay from "@/components/membersSay/MembersSay";
+import StartToday from "@/components/startToday/StartToday";
 
 const Home = () => {
   return (
@@ -8,14 +9,25 @@ const Home = () => {
       <Introduction />
 
       <div className="w-full min-h-[262px] flex items-center justify-center gap-4">
-        <Benefits number={1} title="Junte-se a uma comunidade de fitness comprometida com o seu sucesso." />
-        <Benefits number={2} title="Obtenha um programa personalizado e adaptado às suas necessidades." />
-        <Benefits number={3} title="Fique mais forte, mais saudável e mais feliz." />
+        <Benefits
+          number={1}
+          title="Junte-se a uma comunidade de fitness comprometida com o seu sucesso."
+        />
+        <Benefits
+          number={2}
+          title="Obtenha um programa personalizado e adaptado às suas necessidades."
+        />
+        <Benefits
+          number={3}
+          title="Fique mais forte, mais saudável e mais feliz."
+        />
       </div>
 
       <StartToday />
-    </main>
-  )
-}
 
-export default Home
+      <MembersSay />
+    </main>
+  );
+};
+
+export default Home;

@@ -11,3 +11,8 @@ export interface BenefitsProps {
   number: number;
   title: string;
 }
+
+export interface CommentsProps {
+  name: string;
+  comment: string;
+}
