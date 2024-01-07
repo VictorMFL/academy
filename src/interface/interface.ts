@@ -16,3 +16,9 @@ export interface CommentsProps {
   name: string;
   comment: string;
 }
+
+export interface CardTrainingProps {
+  title: string;
+  image: StaticImageData;
+  description: string;
+};
