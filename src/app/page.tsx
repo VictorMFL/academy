@@ -2,7 +2,6 @@ import Benefits from "@/components/benefits/Benefits";
 import Introduction from "@/components/introduction/Introduction";
 import MembersSay from "@/components/membersSay/MembersSay";
 import StartToday from "@/components/startToday/StartToday";
-import TypesTraining from "@/components/typesTraining/TypesTraining";
 
 const Home = () => {
   return (
@@ -27,8 +26,6 @@ const Home = () => {
       <StartToday />
 
       <MembersSay />
-
-      <TypesTraining />
     </main>
   );
 };

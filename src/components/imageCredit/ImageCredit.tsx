@@ -9,7 +9,7 @@ const ImageCredit = ({ color }: { color: string }) => {
       <a
         href="https://www.freepik.com/"
         target="_blank"
-        className={`border-b-[1px] ${color === 'white'? "border-white hover:text-slate-200": "border-black"} hover:border-newBlue`}
+        className="border-b-[1px] border-white hover:border-newBlue hover:text-slate-200"
       >
         Freepik
       </a>
