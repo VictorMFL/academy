@@ -28,7 +28,7 @@ const Introduction = () => {
           <Card image={iconCrossfit} title="Crossfit" link="#" />
         </div>
 
-        <ImageCredit />
+        <ImageCredit color="white" />
       </div>
     </div>
   );

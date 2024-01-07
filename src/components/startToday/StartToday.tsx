@@ -81,7 +81,7 @@ const StartToday = () => {
           Comece agora
         </Link>
 
-        <ImageCredit />
+        <ImageCredit color="white" />
       </div>
 
       <div className="py-14 px-24 bg-newGray02 flex items-center overflow-hidden">
