@@ -1,4 +1,5 @@
 import Benefits from "@/components/benefits/Benefits";
+import GetStartedToday from "@/components/getStartedToday/GetStartedToday";
 import Introduction from "@/components/introduction/Introduction";
 import MembersSay from "@/components/membersSay/MembersSay";
 import StartToday from "@/components/startToday/StartToday";
@@ -29,6 +30,8 @@ const Home = () => {
       <MembersSay />
 
       <TypesTraining />
+
+      <GetStartedToday />
     </main>
   );
 };
