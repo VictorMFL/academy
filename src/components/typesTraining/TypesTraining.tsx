@@ -4,6 +4,8 @@ import Image from "next/image";
 import bgTraining from "../../assets/bg-treino-solo.jpg";
 import CardTypesTraining from "../cardTypesTraining/CardTypesTraining";
 import photoCrossfit from "../../assets/crossfit.jpg";
+import photoTraninig from '../../assets/treino-personalizado.jpg'
+import photoFoundations from '../../assets/fundacoes.jpg'
 import ImageCredit from "../imageCredit/ImageCredit";
 
 import AOS from "aos";
@@ -34,14 +36,14 @@ const TypesTraining = () => {
           />
 
           <CardTypesTraining
-            image={photoCrossfit}
-            title="CrossFit"
+            image={photoTraninig}
+            title="Treino personalizado"
             description="Aptidão funcional que combina treinamento com kettlebell, levantamento de peso olímpico, ginástica, lançamento de bola medicinal, treinamento com halteres, pliometria, levantamento de peso, remo, corrida e pular corda."
           />
 
           <CardTypesTraining
-            image={photoCrossfit}
-            title="CrossFit"
+            image={photoFoundations}
+            title="Fundações"
             description="Aptidão funcional que combina treinamento com kettlebell, levantamento de peso olímpico, ginástica, lançamento de bola medicinal, treinamento com halteres, pliometria, levantamento de peso, remo, corrida e pular corda."
           />
         </div>
