@@ -3,6 +3,7 @@ import GetStartedToday from "@/components/getStartedToday/GetStartedToday";
 import Introduction from "@/components/introduction/Introduction";
 import MembersSay from "@/components/membersSay/MembersSay";
 import StartToday from "@/components/startToday/StartToday";
+import TalkExpert from "@/components/talkExpert/TalkExpert";
 import TypesTraining from "@/components/typesTraining/TypesTraining";
 
 const Home = () => {
@@ -32,6 +33,8 @@ const Home = () => {
       <TypesTraining />
 
       <GetStartedToday />
+
+      <TalkExpert />
     </main>
   );
 };

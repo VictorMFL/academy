@@ -14,6 +14,7 @@ const config: Config = {
         newGray: "#111111",
         newGray02: "#e5e5e5",
         black: "#000",
+        newBlack: "#292d33",
         white: "#fff",
       },
       keyframes: {
