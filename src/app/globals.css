@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-exemple1 {
+  width: 265px;
+  height: 351px;
+  background-image: url(../assets/exemplo-1.jpg);
+  background-size: cover;
+}
+
+.bg-exemple2 {
+  width: 265px;
+  height: 351px;
+  background-image: url(../assets/exemplo-2.jpg);
+  background-size: cover;
+}
+
+.bg-exemple3 {
+  width: 265px;
+  height: 351px;
+  background-image: url(../assets/exemplo-3.jpg);
+  background-size: cover;
+}
+
+.bg-exemple4 {
+  width: 265px;
+  height: 351px;
+  background-image: url(../assets/exemplo-4.jpg);
+  background-size: cover;
+}
+

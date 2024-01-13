@@ -1,5 +1,6 @@
 import Benefits from "@/components/benefits/Benefits";
 import GetStartedToday from "@/components/getStartedToday/GetStartedToday";
+import GridImages from "@/components/gridImages/GridImages";
 import Introduction from "@/components/introduction/Introduction";
 import MembersSay from "@/components/membersSay/MembersSay";
 import StartToday from "@/components/startToday/StartToday";
@@ -38,6 +39,8 @@ const Home = () => {
       <TalkExpert />
 
       <TakeTraining />
+
+      <GridImages />
     </main>
   );
 };
