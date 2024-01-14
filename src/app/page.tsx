@@ -1,4 +1,5 @@
 import Benefits from "@/components/benefits/Benefits";
+import ContactUs from "@/components/contactUs/ContactUs";
 import GetStartedToday from "@/components/getStartedToday/GetStartedToday";
 import GridImages from "@/components/gridImages/GridImages";
 import Introduction from "@/components/introduction/Introduction";
@@ -41,6 +42,10 @@ const Home = () => {
       <TakeTraining />
 
       <GridImages />
+
+      <div className="w-full bg-white pt-48 pb-[60px]">
+        <ContactUs />
+      </div>
     </main>
   );
 };
