@@ -1,5 +1,10 @@
+"use client";
+
 import { Montserrat, Open_Sans } from "next/font/google";
 import ImageCredit from "../imageCredit/ImageCredit";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const montserrat = Montserrat({
   weight: ["400"],
@@ -12,8 +17,12 @@ const openSans = Open_Sans({
 });
 
 const ContactUs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className="w-fulll flex items-center justify-center">
+    <div className="w-fulll flex items-center justify-center" data-aos="zoom-in">
       <div className="max-w-[50%] flex flex-col gap-5 p-[60px]">
         <h1 className="text-newGray font-normal text-2xl">
           Quer receber e-mails sobre eventos ou novidades?
