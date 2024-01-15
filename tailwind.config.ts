@@ -15,6 +15,8 @@ const config: Config = {
         newGray02: "#e5e5e5",
         black: "#000",
         newBlack: "#292d33",
+        bgFooter: "#333333",
+        footerLink: "#adcce9",
         white: "#fff",
       },
       keyframes: {
