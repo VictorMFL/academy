@@ -38,6 +38,12 @@ const config: Config = {
         bottom: "bottom 1.5s ease-in-out",
         rotateImg: "rotateImage 2s ease-in-out",
       },
+      screens: {
+        cel: { max: "768px" },
+        tablet: { max: "992px" },
+        desktop: { max: "1200px" },
+        TV: { max: "50000px" },
+      },
     },
   },
   plugins: [],
