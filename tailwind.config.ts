@@ -24,6 +24,10 @@ const config: Config = {
           "0%": { transform: "translateX(-500px)", opacity: "0" },
           "100": { transform: "translateX(0)", opacity: "1" },
         },
+        left2: {
+          "0%": { transform: "translateX(-200px)", opacity: "0" },
+          "100": { transform: "translateX(0)", opacity: "1" },
+        },
         bottom: {
           "0%": { transform: "translateY(500px)", opacity: "0" },
           "100": { transform: "translateY(0)", opacity: "1" },
@@ -35,6 +39,7 @@ const config: Config = {
       },
       animation: {
         left: "left 1.5s ease-in-out",
+        left2: "left2 0.5s ease-in-out",
         bottom: "bottom 1.5s ease-in-out",
         rotateImg: "rotateImage 2s ease-in-out",
       },
