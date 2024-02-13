@@ -16,8 +16,8 @@ const Introduction = () => {
         className="h-full absolute top-0 left-0 right-0 bottom-0 -z-10"
       />
 
-      <div className="w-[45%] h-full flex justify-center flex-col gap-12 py-16 pl-[110px]">
-        <h1 className="text-white text-5xl font-normal animate-left">
+      <div className="w-[48%] desktop:w-[60%] tablet:w-[70%] tablet:p-[20px] cel:min-w-full h-full flex justify-center flex-col gap-12 py-16 pl-[110px]">
+        <h1 className="text-white text-5xl tablet:text-3xl font-normal animate-left">
           Leve seu treinamento para o próximo nível
         </h1>
 

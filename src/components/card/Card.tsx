@@ -9,7 +9,7 @@ const Card = ({ image, title, link, subtitle }: CardProps) => {
     <div
       className={`${
         subtitle && "items-center justify-center"
-      } w-[246px] min-h-[235px] bg-white p-[30px] flex flex-col gap-[15px] relative`}
+      } w-[246px] tablet:w-[200px] cel:max-w-[150px] min-h-[235px] bg-white p-[30px] cel:p-[10px] cel:items-center cel:justify-center flex flex-col gap-[15px] mr-4 relative`}
     >
       <span className="w-full h-[5px] bg-newBlue absolute top-0 left-0"></span>
 
@@ -21,14 +21,20 @@ const Card = ({ image, title, link, subtitle }: CardProps) => {
         className="animate-rotateImg"
       />
 
-      <h1 className="font-bold text-2xl uppercase">{title}</h1>
+      <h1 className="font-bold text-2xl uppercase cel:text-lg">{title}</h1>
 
-      {subtitle && <p className={`${openSans.className} text-newGray text-center`}>{subtitle}</p>}
+      {subtitle && (
+        <p
+          className={`${openSans.className} text-newGray text-center cel:text-sm`}
+        >
+          {subtitle}
+        </p>
+      )}
 
       {link && (
         <a
           href={link}
-          className={`${openSans.className} w-[9.2ch] hover:text-newRed font-semibold text-newGray border-b-[1px] border-black`}
+          className={`${openSans.className} w-[9.2ch] hover:text-newRed font-semibold text-newGray border-b-[1px] border-black cel:text-sm`}
         >
           Saiba mais
         </a>
