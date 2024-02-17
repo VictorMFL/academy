@@ -30,3 +30,9 @@
   background-size: cover;
 }
 
+.numbers {
+  min-width: 76px !important;
+  max-width: 76px !important;
+  min-height: 76px !important;
+  max-height: 76px !important;
+}

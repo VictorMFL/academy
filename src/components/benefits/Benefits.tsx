@@ -14,11 +14,11 @@ const Benefits = ({ number, title }: BenefitsProps) => {
   }, []);
 
   return (
-    <div className="w-[380px] flex justify-center gap-8" data-aos="zoom-in">
-      <div className="min-w-[76px] h-[76px] rounded-full bg-newBlue flex items-center justify-center">
+    <div className="w-[380px] flex justify-center gap-8 tablet:flex-col tablet:items-center" data-aos="zoom-in">
+      <div className="rounded-[50%] numbers bg-newBlue flex items-center justify-center">
         <p className="text-5xl text-white">{number}</p>
       </div>
-      <p className={`${openSans.className} text-black text-xl`}>{title}</p>
+      <p className={`${openSans.className} text-black text-xl tablet:text-center tablet:text-base`}>{title}</p>
     </div>
   );
 };

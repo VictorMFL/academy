@@ -14,7 +14,7 @@ const Home = () => {
     <main>
       <Introduction />
 
-      <div className="w-full min-h-[262px] flex items-center justify-center gap-4">
+      <div className="w-full min-h-[262px] flex items-center justify-center gap-4 tablet:p-5 cel:flex-col">
         <Benefits
           number={1}
           title="Junte-se a uma comunidade de fitness comprometida com o seu sucesso."
