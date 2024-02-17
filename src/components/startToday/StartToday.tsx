@@ -21,14 +21,14 @@ const StartToday = () => {
 
   return (
     <>
-      <div className="w-full min-h-[90vh] py-[70px] pl-24 flex flex-col gap-8 relative">
+      <div className="w-full min-h-[90vh] py-[70px] pl-24 cel:p-8 flex flex-col gap-8 relative">
         <Image
           src={bgMusculacao}
           alt="Imagem de um homem fazendo musculação"
           className="h-full absolute top-0 left-0 right-0 bottom-0 -z-10"
         />
 
-        <h1 className="text-white font-normal text-6xl" data-aos="fade-right">
+        <h1 className="text-white font-normal text-6xl cel:text-2xl" data-aos="fade-right">
           Comece hoje
         </h1>
 
@@ -43,7 +43,7 @@ const StartToday = () => {
               height={24}
               width={24}
             />
-            <p className="text-white text-2xl font-normal">
+            <p className="text-white text-2xl font-normal cel:text-base">
               Melhora a saúde cardiovascular
             </p>
           </li>
@@ -55,7 +55,7 @@ const StartToday = () => {
               height={24}
               width={24}
             />
-            <p className="text-white text-2xl font-normal">
+            <p className="text-white text-2xl font-normal cel:text-base">
               Reduz o estresse diário
             </p>
           </li>
@@ -67,7 +67,7 @@ const StartToday = () => {
               height={24}
               width={24}
             />
-            <p className="text-white text-2xl font-normal">
+            <p className="text-white text-2xl font-normal cel:text-base">
               Aumenta a força muscular
             </p>
           </li>
@@ -84,19 +84,19 @@ const StartToday = () => {
         <ImageCredit color="white" />
       </div>
 
-      <div className="py-14 px-24 bg-newGray02 flex items-center overflow-hidden">
+      <div className="py-14 cel:py-8 px-24 cel:px-6 bg-newGray02 flex items-center tablet:flex-col overflow-hidden">
         <div
-          className="w-2/3 h-[223px] bg-white p-[30px]"
+          className="w-2/3 h-[223px] cel:h-auto bg-white p-[30px] tablet:w-full"
           data-aos="fade-right"
         >
-          <h1 className="text-5xl">Comece Hoje</h1>
-          <p className={`${openSans.className} text-2xl my-5 text-newGray`}>
+          <h1 className="text-5xl cel:text-xl tablet:text-center">Comece Hoje</h1>
+          <p className={`${openSans.className} text-2xl cel:text-base my-5 text-newGray tablet:text-center`}>
             Agende uma introdução gratuita com um de nossos treinadores.
           </p>
         </div>
 
         <div
-          className="w-1/3 h-[223px] bg-white p-[30px] flex items-center justify-center"
+          className="w-1/3 h-[223px] bg-white p-[30px] flex items-center justify-center tablet:w-full tablet:h-auto"
           data-aos="fade-left"
         >
           <Link
