@@ -18,13 +18,13 @@ const GetStartedToday = () => {
   }, []);
 
   return (
-    <div className="w-full bg-newGray02 flex flex-col items-center justify-center gap-[30px] p-[60px]">
-      <h1 className="text-5xl text-newGray font-normal" data-aos="zoom-in">
+    <div className="w-full bg-newGray02 flex flex-col items-center justify-center gap-[30px] p-[50px] cel:p-[30px] cel:gap-[15px]">
+      <h1 className="text-5xl text-newGray font-normal cel:text-2xl" data-aos="zoom-in">
         Comece Hoje
       </h1>
 
       <p
-        className={`${openSans.className} max-w-[730px] text-2xl text-center text-newGray`}
+        className={`${openSans.className} max-w-[730px] text-2xl cel:text-base text-center text-newGray`}
         data-aos="zoom-in"
       >
         Mude seu corpo, mude sua mentalidade. Nossa academia tem tudo que você
@@ -32,7 +32,7 @@ const GetStartedToday = () => {
         adipiscing elit, sed do eiusmod.
       </p>
 
-      <div className="grid grid-cols-4 gap-5 mt-5" data-aos="fade-up">
+      <div className="grid grid-cols-4 gap-5 mt-5 tablet:grid-cols-2" data-aos="fade-up">
         <Card
           image={iconWeightLoss}
           title="perda de peso"
