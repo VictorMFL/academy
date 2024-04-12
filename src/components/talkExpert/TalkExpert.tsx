@@ -16,26 +16,32 @@ const TalkExpert = () => {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full tablet:flex tablet:flex-col tablet:items-center tablet:justify-center">
       <div className="w-full bg-newGray02">
-        <div className="w-full h-[577px] z-10 pt-[30px] pl-[177px] relative" data-aos="fade-up">
+        <div
+          className="w-full h-[577px] z-10 pt-[30px] pl-[177px] tablet:pl-0 tablet:flex tablet:items-center tablet:justify-center relative"
+          data-aos="fade-up"
+        >
           <Image
             src={TeamTraining}
             width={819}
             alt="Treino em equipe"
-            className="absolute bottom-[-250px] z-10"
+            className="absolute bottom-[-250px] tablet:bottom-0 tablet:relative tablet:pt-16 z-10"
           />
         </div>
       </div>
 
       <div className="w-full h-[430px] bg-newBlack pb-[60px] relative">
-        <div className="w-[497px] bg-white p-[30px] flex flex-col gap-5 absolute -top-7 right-[232px] z-30" data-aos="flip-right">
-          <h1 className="text-newGray text-2xl font-normal">
+        <div
+          className="w-[497px] cel:w-full cel:right-0 bg-white p-[30px] flex flex-col gap-5 absolute -top-7 right-[232px] z-30"
+          data-aos="flip-right"
+        >
+          <h1 className="text-newGray text-2xl font-normal cel:text-xl">
             Fale com um treinador especialista para construir um plano certo
             para você.
           </h1>
 
-          <p className={`${openSans.className} text-lg text-newGray`}>
+          <p className={`${openSans.className} text-lg text-newGray cel:text-base`}>
             Malesuada bibendum arcu vitae elementum curabitur. Faucibus turpis
             in eu mi. Tortor consequat id porta nibh venenatis cras sed felis.
             Pellentesque habitant morbi tristique senectus et netus et.
