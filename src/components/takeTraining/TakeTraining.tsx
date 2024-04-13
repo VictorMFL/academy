@@ -16,20 +16,20 @@ const TakeTraining = () => {
   }, []);
   
   return (
-    <div className="h-[120vh] w-full flex flex-col items-center justify-center text-white relative">
+    <div className="h-[120vh] cel:h-screen w-full flex flex-col items-center justify-center text-white relative">
       <Image
         src={Bg}
         alt="Imagem de um homem correndo na esteira"
         layout="fill"
       />
 
-      <div className="flex flex-col items-center justify-center gap-[30px] mt-10 z-30">
-        <h1 className="font-normal text-5xl" data-aos="zoom-in">
+      <div className="flex flex-col items-center justify-center gap-[30px] mt-10 z-30 tablet:px-2">
+        <h1 className="font-normal text-5xl text-center tablet:text-4xl cel:text-3xl" data-aos="zoom-in">
           Leve seu treinamento para o próximo nível
         </h1>
 
         <p
-          className={`${openSans.className} text-2xl max-w-[760px] text-center`}
+          className={`${openSans.className} text-2xl cel:text-xl max-w-[760px] text-center`}
           data-aos="zoom-in"
         >
           CrossFit é um movimento com mais de 5 milhões de atletas e mais de
