@@ -9,11 +9,12 @@ import ImageCredit from "../imageCredit/ImageCredit";
 
 const Introduction = () => {
   return (
-    <div className="w-full min-h-[105vh] relative">
+    <div className="w-full min-h-[105vh] cel:min-h-[80vh] relative">
       <Image
         src={bgInitial}
         alt="Imagem na academia"
-        className="h-full absolute top-0 left-0 right-0 bottom-0 -z-10"
+        className="-z-10"
+        layout="fill"
       />
 
       <div className="w-[48%] desktop:w-[60%] tablet:w-[70%] tablet:p-[20px] cel:min-w-full h-full flex justify-center flex-col gap-12 py-16 pl-[110px]">

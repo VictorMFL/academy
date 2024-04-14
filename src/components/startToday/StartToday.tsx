@@ -21,11 +21,11 @@ const StartToday = () => {
 
   return (
     <>
-      <div className="w-full min-h-[90vh] py-[70px] pl-24 cel:p-8 flex flex-col gap-8 relative">
+      <div className="w-full min-h-[90vh] cel:min-h-[70vh] py-[70px] pl-24 cel:p-8 flex flex-col gap-8 relative">
         <Image
           src={bgMusculacao}
           alt="Imagem de um homem fazendo musculação"
-          className="h-full absolute top-0 left-0 right-0 bottom-0 -z-10"
+          layout="fill"
         />
 
         <h1 className="text-white font-normal text-6xl cel:text-2xl" data-aos="fade-right">
