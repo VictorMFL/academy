@@ -43,7 +43,7 @@ const Home = () => {
 
       <GridImages />
 
-      <div className="w-full bg-white pt-48 pb-[60px]">
+      <div className="w-full bg-white pt-48 pb-[60px] tablet:py-6">
         <ContactUs />
       </div>
     </main>

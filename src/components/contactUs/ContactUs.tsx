@@ -22,8 +22,8 @@ const ContactUs = () => {
   }, []);
 
   return (
-    <div className="w-fulll flex items-center justify-center" data-aos="zoom-in">
-      <div className="max-w-[50%] flex flex-col gap-5 p-[60px]">
+    <div className="w-full flex cel:flex-col items-center justify-center" data-aos="zoom-in">
+      <div className="max-w-[50%] cel:min-w-full flex flex-col gap-5 p-[60px] tablet:p-6">
         <h1 className="text-newGray font-normal text-2xl">
           Quer receber e-mails sobre eventos ou novidades?
         </h1>
@@ -49,8 +49,8 @@ const ContactUs = () => {
         </form>
       </div>
 
-      <div className="max-w-[50%] flex flex-col gap-5 p-[60px]">
-        <h1 className="text-newGray font-normal text-5xl">
+      <div className="max-w-[50%] cel:min-w-full flex flex-col gap-5 p-[60px]">
+        <h1 className="text-newGray font-normal text-5xl cel:text-3xl">
           Reserve seu treino
         </h1>
 

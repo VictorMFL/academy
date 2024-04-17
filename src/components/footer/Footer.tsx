@@ -7,8 +7,8 @@ const openSans = Open_Sans({
 
 const Footer = () => {
   return (
-    <footer className="w-full min-h-[240px] bg-bgFooter flex flex-col items-center justify-center text-white">
-      <p className={`${openSans.className} text-sm`}>Texto de Amostra. Aqui ficará os dados do footer do seu site.</p>
+    <footer className="w-full min-h-[240px] bg-bgFooter flex flex-col items-center justify-center text-white p-4">
+      <p className={`${openSans.className} text-sm text-center`}>Texto de Amostra. Aqui ficará os dados do footer do seu site.</p>
 
       <div className={`${openSans.className} flex items-center gap-[1ch] mt-10 text-xs`}>
         <a href="https://nicepage.com/website-templates" target="_blank" className="text-footerLink underline">Modelos de sites</a>
