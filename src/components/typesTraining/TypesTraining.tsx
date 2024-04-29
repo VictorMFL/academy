@@ -18,8 +18,8 @@ const TypesTraining = () => {
   }, [])
 
   return (
-    <div className="w-full bg-newGray02">
-      <div className="h-[110vh] relative" data-aos="fade-up">
+    <div className="w-full cel:flex cel:flex-col cel:gap-2 bg-newGray02">
+      <div className="h-[110vh] relative tablet:hidden" data-aos="fade-up">
         <Image
           src={bgTraining}
           alt="Imagem de um homem treinando"
@@ -27,8 +27,8 @@ const TypesTraining = () => {
         />
       </div>
 
-      <div className="w-full h-[590px] flex flex-col items-center justify-center -mt-64 relative">
-        <div className="w-full flex justify-center items-center gap-5 absolute" data-aos="fade-up">
+      <div className="w-full h-[590px] tablet:min-h-[590px] flex flex-col items-center justify-center -mt-64 tablet:mt-0 relative">
+        <div className="w-full flex tablet:flex-col justify-center items-center gap-5 tablet:gap-2 absolute" data-aos="fade-up">
           <CardTypesTraining
             image={photoCrossfit}
             title="CrossFit"
@@ -48,7 +48,7 @@ const TypesTraining = () => {
           />
         </div>
       </div>
-      <div className="w-full p-[60px] flex items-center justify-center">
+      <div className="w-full p-[60px] tablet:p-4 flex items-center justify-center">
         <ImageCredit color="black" />
       </div>
     </div>
