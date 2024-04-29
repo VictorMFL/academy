@@ -48,7 +48,7 @@ const TypesTraining = () => {
           />
         </div>
       </div>
-      <div className="w-full p-[60px] tablet:p-4 flex items-center justify-center">
+      <div className="w-full p-[60px] tablet:p-4 flex items-center justify-center cel:hidden">
         <ImageCredit color="black" />
       </div>
     </div>

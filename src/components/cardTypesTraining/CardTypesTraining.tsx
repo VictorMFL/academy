@@ -27,9 +27,9 @@ const CardTypesTraining = ({
       )}
 
       <div className="flex flex-col">
-        <h1 className="text-2xl">{title}</h1>
+        <h1 className="text-2xl cel:text-lg">{title}</h1>
 
-        <p className={`${openSans.className} mb-5 text-lg`}>{description}</p>
+        <p className={`${openSans.className} mb-5 text-lg cel:text-sm cel:mb-0`}>{description}</p>
       </div>
     </div>
   );
