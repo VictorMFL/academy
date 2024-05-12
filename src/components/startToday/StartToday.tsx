@@ -21,7 +21,7 @@ const StartToday = () => {
 
   return (
     <>
-      <div className="w-full min-h-[90vh] cel:min-h-[70vh] py-[70px] pl-24 cel:p-8 flex flex-col gap-8 relative">
+      <div className="w-full min-h-[90vh] cel:min-h-[50vh] py-[70px] pl-24 cel:p-8 flex flex-col gap-8 relative">
         <Image
           src={bgMusculacao}
           alt="Imagem de um homem fazendo musculação"

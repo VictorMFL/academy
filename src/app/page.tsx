@@ -11,7 +11,7 @@ import TypesTraining from "@/components/typesTraining/TypesTraining";
 
 const Home = () => {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Introduction />
 
       <div className="w-full min-h-[262px] flex items-center justify-center gap-4 tablet:p-5 cel:flex-col">

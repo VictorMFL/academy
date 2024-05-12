@@ -49,6 +49,9 @@ const config: Config = {
         desktop: { max: "1200px" },
         TV: { max: "50000px" },
       },
+      gridTemplateColumns: {
+        'tablet': '200px 200px',
+      }
     },
   },
   plugins: [],

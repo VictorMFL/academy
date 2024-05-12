@@ -7,6 +7,7 @@ import { Open_Sans } from "next/font/google";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import useMedia from "@/hooks/useMedia/useMedia";
 
 const openSans = Open_Sans({ weight: ["400"], subsets: ["latin"] });
 
@@ -14,17 +15,24 @@ const TakeTraining = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  
+
+  const mobile = useMedia("(max-width: 768px)");
+
   return (
-    <div className="h-[120vh] cel:h-screen w-full flex flex-col items-center justify-center text-white relative">
-      <Image
-        src={Bg}
-        alt="Imagem de um homem correndo na esteira"
-        layout="fill"
-      />
+    <div className="h-[120vh] cel:h-screen cel:bg-newBlack w-full flex flex-col items-center justify-center text-white relative">
+      {!mobile && (
+        <Image
+          src={Bg}
+          alt="Imagem de um homem correndo na esteira"
+          layout="fill"
+        />
+      )}
 
       <div className="flex flex-col items-center justify-center gap-[30px] mt-10 z-30 tablet:px-2">
-        <h1 className="font-normal text-5xl text-center tablet:text-4xl cel:text-3xl" data-aos="zoom-in">
+        <h1
+          className="font-normal text-5xl text-center tablet:text-4xl cel:text-3xl"
+          data-aos="zoom-in"
+        >
           Leve seu treinamento para o próximo nível
         </h1>
 
