@@ -44,3 +44,13 @@
     flex-wrap: wrap;
   }
 }
+
+.background-initial {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/bg-inicial.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+}
