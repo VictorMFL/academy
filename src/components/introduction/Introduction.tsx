@@ -20,10 +20,10 @@ const Introduction = () => {
         <div
           className={`grid-cel w-full grid grid-cols-2 tablet:grid-cols-tablet gap-4 cel:gap-1 animate-bottom`}
         >
-          <Card image={iconBar} title="exercícios" link="#" />
-          <Card image={iconStrong} title="treinadores" link="#" />
-          <Card image={iconFitness} title="fitness" link="#" />
-          <Card image={iconCrossfit} title="Crossfit" link="#" />
+          <Card image={iconBar} title="exercícios" link="/contato" />
+          <Card image={iconStrong} title="treinadores" link="/contato" />
+          <Card image={iconFitness} title="fitness" link="/contato" />
+          <Card image={iconCrossfit} title="Crossfit" link="/contato" />
         </div>
 
         <ImageCredit color="white" />

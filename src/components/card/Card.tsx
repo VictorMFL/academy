@@ -1,6 +1,7 @@
 import { CardProps } from "@/interface/interface";
 import Image from "next/image";
 import { Open_Sans } from "next/font/google";
+import Link from "next/link";
 
 const openSans = Open_Sans({ weight: ["600"], subsets: ["latin"] });
 
@@ -32,12 +33,12 @@ const Card = ({ image, title, link, subtitle }: CardProps) => {
       )}
 
       {link && (
-        <a
+        <Link
           href={link}
           className={`${openSans.className} w-[9.2ch] hover:text-newRed font-semibold text-newGray border-b-[1px] border-black cel:text-sm`}
         >
           Saiba mais
-        </a>
+        </Link>
       )}
     </div>
   );
