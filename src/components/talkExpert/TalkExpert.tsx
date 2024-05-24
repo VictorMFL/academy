@@ -7,6 +7,7 @@ import { Open_Sans } from "next/font/google";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const openSans = Open_Sans({ weight: ["400"], subsets: ["latin"] });
 
@@ -49,9 +50,9 @@ const TalkExpert = () => {
 
           <ImageCredit color="black" />
 
-          <button className="uppercase text-center text-white bg-newBlue font-bold py-[14px] px-[35px] max-w-[234px] hover:bg-black">
+          <Link href="/contato" className="uppercase text-center text-white bg-newBlue font-bold py-[14px] px-[35px] max-w-[234px] hover:bg-black">
             Comece agora
-          </button>
+          </Link>
         </div>
       </div>
     </div>

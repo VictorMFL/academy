@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import useMedia from "@/hooks/useMedia/useMedia";
+import Link from "next/link";
 
 const openSans = Open_Sans({ weight: ["400"], subsets: ["latin"] });
 
@@ -45,19 +46,21 @@ const TakeTraining = () => {
         </p>
 
         <div className="flex items-center justify-center gap-5">
-          <button
+          <Link
+            href="/contato"
             className="uppercase text-center text-white bg-newBlue font-bold py-[14px] px-[35px] max-w-[234px] hover:bg-black"
             data-aos="fade-right"
           >
             Comece agora
-          </button>
+          </Link>
 
-          <button
+          <Link
+            href="/contato"
             className="uppercase text-center text-white bg-transparent border-white border-[2px] font-bold py-[12px] px-[35px] max-w-[234px] hover:text-black hover:bg-white"
             data-aos="fade-left"
           >
             Comece agora
-          </button>
+          </Link>
         </div>
 
         <ImageCredit color="white" />
