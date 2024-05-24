@@ -54,8 +54,6 @@ const ContactUs = () => {
           Reserve seu treino
         </h1>
 
-        <ImageCredit color="black" />
-
         <a
           href="https://api.whatsapp.com/send?phone=5511999999999"
           target="_blank"

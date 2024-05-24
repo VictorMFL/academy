@@ -8,8 +8,13 @@ import StartToday from "@/components/startToday/StartToday";
 import TakeTraining from "@/components/takeTraining/TakeTraining";
 import TalkExpert from "@/components/talkExpert/TalkExpert";
 import TypesTraining from "@/components/typesTraining/TypesTraining";
+import { metadata } from "./layout";
 
 const Home = () => {
+  const head = metadata
+  head.title = "Home"
+  head.description = "Home of website"
+
   return (
     <main className="overflow-x-hidden">
       <Introduction />
