@@ -25,7 +25,9 @@ const Header = () => {
       <header
         className={`${openSans.className} flex items-center justify-between py-5 pl-24 pr-36 cel:px-4 border-b-2 boder-newGray`}
       >
-        <Image src={require("../../assets/logo.png")} alt="Logo" />
+        <Link href="/">
+          <Image src={require("../../assets/logo.png")} alt="Logo" />
+        </Link>
 
         <nav>
           <div
