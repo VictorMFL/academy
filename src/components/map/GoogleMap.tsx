@@ -4,7 +4,7 @@ import { APIProvider, Map } from "@vis.gl/react-google-maps";
 
 const GoogleMap = () => {
   return (
-    <APIProvider apiKey="AIzaSyAJ20_RS452dK1c1MQbFORBIjcEnpprUZQ">
+    <APIProvider apiKey={process.env.API_KEY_GOOGLE_MAP!}>
     <Map
       style={{width: "60%", height: '35vh'}}
       defaultCenter={{lat: -23.4883, lng: -46.8405}}
