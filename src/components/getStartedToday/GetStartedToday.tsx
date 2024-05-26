@@ -28,30 +28,29 @@ const GetStartedToday = () => {
         data-aos="zoom-in"
       >
         Mude seu corpo, mude sua mentalidade. Nossa academia tem tudo que você
-        precisa para obter resultados. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod.
+        precisa para obter resultados.
       </p>
 
       <div className="grid grid-cols-4 gap-5 mt-5 tablet:grid-cols-2" data-aos="fade-up">
         <Card
           image={iconWeightLoss}
           title="perda de peso"
-          subtitle="Texto de amostra. amostra amostra"
+          subtitle="Excelente forma de perder peso"
         />
         <Card
           image={iconStrong}
           title="corpo ideal"
-          subtitle="Texto de amostra. amostra amostra"
+          subtitle="Tenha o seu corpo dos sonhos"
         />
         <Card
           image={iconEnergy}
           title="mais energia"
-          subtitle="Texto de amostra. amostra amostra"
+          subtitle="Ganhe mais energia para o seu dia"
         />
         <Card
           image={iconSmile}
           title="menos dor"
-          subtitle="Texto de amostra. amostra amostra"
+          subtitle="Use seus musculos e melhore o rendimento."
         />
       </div>
     </div>

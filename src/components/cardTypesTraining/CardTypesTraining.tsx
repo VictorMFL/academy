@@ -14,7 +14,7 @@ const CardTypesTraining = ({
   const cel = useMedia("(max-width: 687px)");
 
   return (
-    <div className="bg-white p-[30px] w-[300px] tablet:w-full tablet:p-2 tablet:flex-row flex flex-col gap-5">
+    <div className="bg-white p-[30px] w-[300px] h-[500px] tablet:h-auto tablet:w-full tablet:p-2 tablet:flex-row flex flex-col gap-5">
       {cel ? (
         <span></span>
       ) : (

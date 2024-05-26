@@ -42,15 +42,19 @@ const TalkExpert = () => {
             para você.
           </h1>
 
-          <p className={`${openSans.className} text-lg text-newGray cel:text-base`}>
-            Malesuada bibendum arcu vitae elementum curabitur. Faucibus turpis
-            in eu mi. Tortor consequat id porta nibh venenatis cras sed felis.
-            Pellentesque habitant morbi tristique senectus et netus et.
+          <p
+            className={`${openSans.className} text-lg text-newGray cel:text-base`}
+          >
+            Vamos te ajudar a alcançar seus objetivos de forma personalizada com
+            a orientação de um profissional experiente.
           </p>
 
           <ImageCredit color="black" />
 
-          <Link href="/contato" className="uppercase text-center text-white bg-newBlue font-bold py-[14px] px-[35px] max-w-[234px] hover:bg-black">
+          <Link
+            href="/contato"
+            className="uppercase text-center text-white bg-newBlue font-bold py-[14px] px-[35px] max-w-[234px] hover:bg-black"
+          >
             Comece agora
           </Link>
         </div>

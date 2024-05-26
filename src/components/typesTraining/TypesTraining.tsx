@@ -32,19 +32,19 @@ const TypesTraining = () => {
           <CardTypesTraining
             image={photoCrossfit}
             title="CrossFit"
-            description="Aptidão funcional que combina treinamento com kettlebell, levantamento de peso olímpico, ginástica, lançamento de bola medicinal, treinamento com halteres, pliometria, levantamento de peso, remo, corrida e pular corda."
+            description="Mais que treino, estilo de vida para força, resistência e agilidade em qualquer atividade."
           />
 
           <CardTypesTraining
             image={photoTraninig}
             title="Treino personalizado"
-            description="Aptidão funcional que combina treinamento com kettlebell, levantamento de peso olímpico, ginástica, lançamento de bola medicinal, treinamento com halteres, pliometria, levantamento de peso, remo, corrida e pular corda."
+            description="Tenha um treino completamente voltado para as suas necessidades."
           />
 
           <CardTypesTraining
             image={photoFoundations}
             title="Fundações"
-            description="Aptidão funcional que combina treinamento com kettlebell, levantamento de peso olímpico, ginástica, lançamento de bola medicinal, treinamento com halteres, pliometria, levantamento de peso, remo, corrida e pular corda."
+            description="Aprenda cada exercício com um dos nossos professores te auxiliando."
           />
         </div>
       </div>

@@ -22,7 +22,7 @@ const Card = ({ image, title, link, subtitle }: CardProps) => {
         className="animate-rotateImg"
       />
 
-      <h1 className="font-bold text-2xl uppercase cel:text-lg">{title}</h1>
+      <h1 className="font-bold text-2xl uppercase cel:text-lg text-center">{title}</h1>
 
       {subtitle && (
         <p

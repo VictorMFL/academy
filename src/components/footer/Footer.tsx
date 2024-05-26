@@ -17,7 +17,7 @@ const Footer = () => {
       <a
         href="https://api.whatsapp.com/send?phone=5511999999999"
         target="_blank"
-        className="fixed bottom-4 right-4 animate-bottom"
+        className="fixed bottom-4 right-4 animate-bottom z-50"
       >
         <Image src={IconWhatsapp} alt="Icone do whatsapp" />
       </a>
